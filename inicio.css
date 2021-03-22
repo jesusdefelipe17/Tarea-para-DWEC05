@@ -1,0 +1,103 @@
+body{
+    text-align: center;
+    background-color: cornsilk;
+}
+
+.container{
+    margin-top: 5%;
+    margin-right: 10%;
+}
+button{
+ margin-top: 7%;
+}
+
+select{
+    margin-top: 5%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(115, 159, 170);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: rgb(129, 189, 181);
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+
+
+/* relevant styles */
+.img__wrap {
+  
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.671);
+  color: black;
+  visibility: hidden;
+ 
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description {
+  visibility: visible;
+  opacity: 2000;
+}
+
+.vertical-menu {
+  width: 30%;
+  margin-left: 35%;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+div.gallery {
+  margin: 100px;
+  float: left;
+
+}
+

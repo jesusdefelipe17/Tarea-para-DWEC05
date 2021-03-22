@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Implementación UT05 Jesus De Felipe</title>
+  <html>
+   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>-->
+    <script type="text/javascript" src="BaseException.js"></script>
+    <script type="text/javascript" src="Category.js"></script>
+    <script type="text/javascript" src="Author.js"></script>
+    <script type="text/javascript" src="Image.js"></script>
+    <script type="text/javascript" src="Coords.js"></script>
+    <script type="text/javascript" src="Portrait.js"></script>
+    <script type="text/javascript" src="Landscape.js"></script>
+    <script type="text/javascript" src="Gallery.js"></script>
+    <script type="text/javascript" src="Galeria_funciones.js"></script>
+    <link rel="stylesheet" type="text/css" href="inicio.css" media="screen" />
+		<meta charset="UTF-8" />
+  <meta charset="utf-8"/>
+</head>
+<body onload="inicio()">
+    
+
+
+  <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="#" onClick="cierraVentana()">Cerrar todas las ventanas</a></li>
+    
+   
+  </ul>
+
+        <select name="categorias" id="categorias" onChange="location = this.value;"></select>
+        <br/>
+        <br/>
+        <div class="vertical-menu"  name="menu" id="menu"></div>
+        <div class="vertical-menu"  name="menu" id="menuNuevoCategorias"></div>
+        <select name="categoriasFiltro" id="categoriasFiltro" onChange="location = this.value;"></select>
+        <div name="todo" id="todo"></div>
+      
+        
+</body>
+</html>
